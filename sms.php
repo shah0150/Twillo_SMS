@@ -12,11 +12,11 @@ require "Services/Twilio.php";
 
 
 
-$AccountSid = "ACaae5adc3a2b6e5b01c8aec05107f5531";
-$AuthToken = "11256ca43871dbd619c721c387c284a1";
+$AccountSid = "";
+$AuthToken = "";
 
 
-$fromNumber = "+16137049803";
+$fromNumber = "";
 
 
 $client = new Services_Twilio($AccountSid, $AuthToken);
