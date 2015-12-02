@@ -27,9 +27,9 @@ $message = $_REQUEST["message"];
 
 
 if ($testing) {
-    $fromNumber = "+16137049803";
-    $toNumber = "+16135919990";
-    $message = "This is a test by Adesh. Time is " . date('h:i.s');
+    $fromNumber = "+1";
+    $toNumber = "+1";
+    $message = "This is a test by Adesh. Time is ";
 }
 
 
